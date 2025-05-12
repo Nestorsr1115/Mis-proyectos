@@ -35,7 +35,7 @@ app = rx.App(
 app.add_page(
     index,
     title="NestorSR | Desarrollador web",
-    description="Mi primera web coon reflex",
+    description="Mi primera web con reflex",
     image="perfil.jpg",
 )
 app._compile()
