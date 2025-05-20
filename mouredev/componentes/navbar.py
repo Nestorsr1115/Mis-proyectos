@@ -1,6 +1,7 @@
 import reflex as rx
 import mouredev.styles.styles as styles
 from mouredev.styles.styles import Espacio as Espacio
+from mouredev.componentes.ant_component import float_button
 
 
 def navbar() -> rx.Component:
@@ -16,6 +17,7 @@ def navbar() -> rx.Component:
                 
             ),
         ),
+        #float_button(),
         position="sticky",         # Hace que el navbar sea sticky
         top="0",                   # Define la posición desde la parte superior
         z_index="999",
